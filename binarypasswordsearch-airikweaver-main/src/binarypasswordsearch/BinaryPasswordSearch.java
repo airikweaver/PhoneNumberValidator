@@ -32,7 +32,7 @@ public class BinaryPasswordSearch {
         {
             ReadListOfPasswords(passwords);
             SortArray(passwords);
-            BinarySearch(passwords, "Password");
+            BinarySearch(passwords, "");
         }
     }//performs a binary search comparing the target string with the list string in a while loop until the file is done
     static public void BinarySearch(String[] passwords, String phrase){
